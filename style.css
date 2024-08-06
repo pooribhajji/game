@@ -12,14 +12,16 @@
     font-size:35px;
 }
 .main{
-    height:300px;
+    height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-clouds-and-flowers-in-pink-landscape-image_2945381.jpg");
+    background-size:contain ;
 }
 #paper {
-    height: 120px;
-    width: 120px;
+    height: 40vh;
+    width: 25vw;
     background-color: pink;
     margin-right: 50px;
     border:3px solid black;
@@ -28,8 +30,8 @@
     background-size:100% 100%;
 }
 #rock {
-    height: 120px;
-    width: 120px;
+    height: 40vh;
+    width: 25vw;
     background-color: skyblue;
     margin-right: 50px;
     border: 3px solid black;
@@ -38,8 +40,8 @@
     background-size: 100% 100%;
 }
 #scissor {
-    height: 120px;
-    width: 120px;
+    height: 40vh;
+    width: 25vw;
     background-color: mediumpurple;
     border: 3px solid black;
     border-radius: 50%;
