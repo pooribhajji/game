@@ -1,0 +1,49 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    margin:0px;
+}
+.navbar{
+    height:80px;
+    background-color:#000033;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:35px;
+}
+.main{
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#paper {
+    height: 120px;
+    width: 120px;
+    background-color: pink;
+    margin-right: 50px;
+    border:3px solid black;
+    border-radius:50%;
+    background-image:url("paper.png");
+    background-size:100% 100%;
+}
+#rock {
+    height: 120px;
+    width: 120px;
+    background-color: skyblue;
+    margin-right: 50px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-image: url("rock.png");
+    background-size: 100% 100%;
+}
+#scissor {
+    height: 120px;
+    width: 120px;
+    background-color: mediumpurple;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-image: url("scissors.png");
+    background-size: 100% 100%;
+}
+
