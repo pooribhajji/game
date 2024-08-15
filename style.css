@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+
+
+}
+.titleBar{
+   width: 100vw;
+   height:20vh;
+   font-size: xx-large;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: #040d1a;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.playerChoices{
+    width: 100vw;
+    height:40vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top:10px;
+}
+#rock{
+    width:200px;
+    height:200px;
+    background-image: url("rock.png");
+    background-size: cover;
+    border-radius: 50%;
+    padding-right: 20px;
+}
+#paper{
+    width:200px;
+    height:200px;
+    background-image: url("paper.png");
+    background-size: cover;
+    border-radius: 50%;
+    padding-right: 20px;
+}
+#scissor{
+    width:200px;
+    height:200px;
+    background-image: url("scissors.png");
+    background-size: cover;
+    border-radius: 50%;
+    padding-right: 20px;
+}
+#score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 40vh;
+    padding-left: 45vw;
+}
+#sb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 20vh;
+
+}
+#you{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 20vh;
+}
+#Ynumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    width: 20vw;
+    height: 10vh;
+}
+#Yname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    width: 20vw;
+    height: 15vh;
+}
+#computer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 20vh;
+}
+#Cnumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    width: 20vw;
+    height: 10vh;
+}
+#Cname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    width: 20vw;
+    height: 15vh;
+}
+#result{
+    width: 30vw;
+    height: 30px;
+    bottom: 10px;
+    border-radius: 5%;
+    background-color: greenyellow;
+    color: aliceblue;
+    display :inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
